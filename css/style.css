@@ -1,0 +1,110 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Fjalla+One&family=Kdam+Thmor+Pro&family=Oswald&family=Permanent+Marker&family=Roboto+Serif:ital,opsz,wght@1,8..144,200&display=swap');
+
+*{
+    margin: 0%;
+    padding:0%;
+    box-sizing: border-box;
+}
+h1{
+    color: #770909;
+    font-size: 2rem;
+    font-family: 'Permanent Marker', cursive; 
+    text-decoration: none;
+    list-style: none
+
+}
+h2{color: #770909;
+    font-size: 2rem;
+    font-family: 'Permanent Marker', cursive; 
+    text-decoration: none;
+    list-style: none
+
+
+}
+h3{
+    color: #f5eded;
+    font-family: 'Permanent Marker', cursive;
+    font-size: 1.5rem;
+}
+h5{
+    color: black;
+    font-family: 'Permanent Marker', cursive;
+    font-size: 1.5rem;
+}
+.figcaption{
+    font-family: 'Permanent Marker', cursive ;
+    color: red;
+    font-size: 1.5rem;
+}
+
+.bg-nav{
+    background-color: rgba(255, 0, 0, 0.719)
+}
+.ul-lia{
+    font-size: 1.2rem;
+    color: #0c0505;
+    font-family: 'Permanent Marker', cursive;
+}
+.logo{
+    font-family: 'Permanent Marker', cursive;
+    font-size: 2rem;
+    color: black;
+}.body-1{
+    background-image: url(../recursos/img/fondonegro.jpg);
+
+}
+.p-p{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.5rem ;
+    color: #f5eded;
+    border-style: double;
+}
+.p-p-p{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.2rem ;
+    color: #f5eded;
+    padding: 20px;
+    width: 80%;
+    margin: 50px auto;
+    border-top: double #922c2c 3px ;
+}
+/*transforms*/
+.figure:hover{
+    color: white;
+    font-weight: 700;
+    transform: translateX(10px);
+    cursor: pointer;
+}
+
+.button{
+    padding: 10px;
+    background: linear-gradient(to top, black, red);
+}
+.button:hover{
+    color:white;
+    cursor: pointer;
+}
+/*animate*/
+@keyframes animationdiv {
+    0%{background-image: url(../recursos/img/modelo\ negra1.png) ;}
+    25%{background-image: url(../recursos/img/ornamento\ grande.png);}
+    50%{background-image: url(../recursos/img/florornamental.png);}
+    75%{background-image: url(../recursos/img/ying-yang.png)}
+    100%{background-image: url(../recursos/img/logopame.png);}
+}
+  
+.animate{
+    height: 90vh;
+    width: 75vh;    
+    animation-name: animationdiv;
+    animation-iteration-count:infinite;
+    animation-timing-function:unset;
+    animation-duration: 10s;
+    background-size: cover;
+} 
+#selectorA p:first-letter{
+    color: red;
+    font-size: 2em;
+    padding: 4px;
+}
+ 
